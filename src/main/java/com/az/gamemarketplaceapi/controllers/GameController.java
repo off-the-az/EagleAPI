@@ -49,7 +49,7 @@ public class GameController {
             Game isExsiteGame = gameService.getGameByName(game.getName());
             if(isExsiteGame == null){
                 String fileName = fileStorageService.storeFile("game", String.valueOf(game.getName()), file);
-                String fileDownloadUri = "http://localhost:8000/downloadFile/game/" + fileName;
+                String fileDownloadUri = "http://46.36.222.232:8000/downloadFile/game/" + fileName;
                 game.setPhoto(fileDownloadUri);
                 gameService.saveGame(game);
                 String[] categories = attributes.split(", ");
