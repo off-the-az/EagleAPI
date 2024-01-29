@@ -17,6 +17,7 @@ import java.util.Arrays;
 import java.util.NoSuchElementException;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("api/game")
 public class GameController {
 

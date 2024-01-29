@@ -15,6 +15,7 @@ public class Game {
     private Long id;
     private String name;
     private String photo;
+    private String description;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -24,8 +24,8 @@ import java.util.Objects;
 public class FileService {
 
     private final Path fileStorageLocation;
-//    public static String ROOT = "/root/GameMarketplaceAPI/src/main/resources/assets";
-    public static String ROOT = "C:\\Users\\0ffth\\Desktop\\GameMarketplaceAPI\\src\\main\\resources\\assets";
+    public static String ROOT = "/root/EagleAPI/src/main/resources/assets";
+//    public static String ROOT = "C:\\Users\\0ffth\\Desktop\\GameMarketplaceAPI\\src\\main\\resources\\assets";
 
     @Autowired
     public FileService(FileStorageProperties fileStorageProperties) {
